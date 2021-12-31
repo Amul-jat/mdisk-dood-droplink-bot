@@ -32,13 +32,13 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**I am a Doodstream post convertor bot and i am able to upload all direct links to Doodstream,just send me links or full post... \n Join my Group @ComicBank**")
+        "**I am a Mdisk/Doodstream post convertor bot and i am able to upload all direct links to Mdisk/Doodstream,just send me links or full post... \n Join my Group @ComicBank**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Doodstream Links, texts & images... Than I'll convert & replace all Doodstream links with your Doodstream links \nMessage me @kamdev07 For more help-**")
+        "**If you send post which had Mdisk/Doodstream Links, texts & images... Than I'll convert & replace all Mdisk/Doodstream links with your Mdisk/Doodstream links \nMessage me @kamdev07 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
