@@ -1,6 +1,6 @@
-# Doodstream-Droplink Uploader Bot 🔥
+# Doodstream/MDisk-Droplink Uploader Bot 🔥
 
-Upload on Doodstream by Url, File and also by direct forward post from other channel...
+Upload on Doodstream or Mdisk by Url, File and also by direct forward post from other channel...
 
 ## Features
 
@@ -16,7 +16,7 @@ Upload on Doodstream by Url, File and also by direct forward post from other cha
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Amul-jat/Doodstream-Droplink-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Amul-jat/mdisk-dood-droplink-bot)
 
 ##### Required Variables
 
