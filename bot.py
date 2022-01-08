@@ -154,8 +154,6 @@ async def multi_Doodstream_up(ml_string):
 async def new_Doodstream_url(urls):
     new_urls = []
     for i in urls:
-        if( 't.me' in i  or 'telegra.ph' in i or 'https://t.me/+' in i):
-          continue
         time.sleep(0.2)
         new_urls.append(await Doodstream_up(i))
     return new_urls
