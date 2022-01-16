@@ -157,8 +157,8 @@ async def new_Doodstream_url(urls):
         if ('entertainvideo' in urls or 'mdisk' in urls or 'bit' in urls or 'bit' in urls):
             time.sleep(0.2)
             new_urls.append(await Doodstream_up(i))
-        else:
-            continue
+        #else:
+            #continue
     return new_urls
 
 
