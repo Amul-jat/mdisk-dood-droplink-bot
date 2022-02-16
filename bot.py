@@ -170,7 +170,7 @@ async def remove_username(new_List):
     while(count):
       
         for i in new_List:
-            if('@' in i or 't.me' in i or 'https://bit.ly/abcd' in i or 'https://bit.ly/123abcd' in i or 'telegra.ph' in i or 'https://t.me/+' in i):
+            if('@' in i or 't.me' in i or 'https://bit.ly/abcd' in i or 'https://bit.ly/123abcd' in i or 'telegra.ph' in i or 'https://t.me/+' in i or 'porn' in i ):
                 new_List.remove(i)
         count-=1
     return new_List
