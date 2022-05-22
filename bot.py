@@ -110,7 +110,7 @@ async def Doodstream_up(links):
     
     
     
-    url = 'https://droplink.co/api'
+    url = 'https://short.vapeluckyman.xyz/api'
     params = {'api': API_KEY, 'url': v_url}
     
     async with aiohttp.ClientSession() as session:
